@@ -238,6 +238,8 @@ section {
   gap: 8px;
   flex-wrap: wrap;
   margin-top: 12px;
+  list-style: none; /* Elimina la viñeta/punto por defecto */
+  padding-left: 0;   /* Remueve el sangrado por defecto */
 }
 
 .skills li {
