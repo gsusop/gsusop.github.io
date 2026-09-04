@@ -65,13 +65,13 @@ img {
 .nav-links {
   display: flex;
   gap: 30px;
-  list-style: none; /* Elimina las viñetas del menú */
-  padding-left: 0;
-}
+  }
 
 .nav-links a {
   position: relative;
   font-weight: 500;
+  list-style: none; /* Elimina las viñetas del menú */
+  padding-left: 0;
 }
 
 .nav-links a::after {
